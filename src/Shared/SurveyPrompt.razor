@@ -1,0 +1,12 @@
+<div class="absolute inset-x-0 bottom-0">
+    <div role="alert" class="mx-auto w-1/3 rounded-3xl mb-4 transform shadow-lg bg-gradient-to-br from-green-700 to-green-500 rotate-2 text-white text-center p-6">
+        <strong>@Title</strong>
+        <p>Please take our <a target="_blank" class="font-bold underline hover:no-underline" href="https://go.microsoft.com/fwlink/?linkid=2137916">brief survey</a> and tell us what you think.</p>
+    </div>
+</div>
+
+@code {
+    // Demonstrates how a parent component can supply parameters
+    [Parameter]
+    public string Title { get; set; }
+}
